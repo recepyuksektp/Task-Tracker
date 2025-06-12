@@ -1,0 +1,5 @@
+[phases.build]
+cmds = ["mvn clean package"]
+
+[start]
+cmd = "java -cp target/task-tracker-1.0-SNAPSHOT.jar com.recep.tasktracker.App"
